@@ -31,8 +31,8 @@ HuggingFaceEmbeddings(model_name="sentence-transformers/xxxxxxx")
 
 - Ask question and get answer on Colab.
 
+<img src="Images/simple colab version.png" style="zoom:80%;" />	
 
-![](Images/simple colab version.png)	
 #### 4. Run Streamlit On Colab
 - Input your openai api key in the ChatOpenAI() .
 ```
@@ -53,19 +53,19 @@ embedding = HuggingFaceEmbeddings(
 
 - You can get an url, but you don't need to click on it, stop this cell.
 
-![npx url](Images/npx url.png)
+<img src="Images/npx url.png" alt="npx url" style="zoom:80%;" />
 
 - Run the next cell, get the tunnel password.
 
-![get curl password](Images/get curl password.png)
+<img src="Images/get curl password.png" alt="get curl password" style="zoom:80%;" />
 
 - Run the above cell again, click the last url link.
 
-![password UI](Images/password UI.png)
+<img src="Images/password UI.png" alt="password UI" style="zoom:80%;" />
 
 - Enter the tunnel password, which you got in the previous step. Then you can see the Streamlit WebUI.
 
-<img src="Images/streamlit ui.png" alt="streamlit ui"  />
+<img src="Images/streamlit ui.png" alt="streamlit ui" style="zoom:80%;" />
 
 
 #### 5. Run Streamlit On Local Computer
