@@ -26,7 +26,7 @@ pip install -r requirements.txt
 loader = PyPDFLoader("data.pdf")
 ```
 
-- Input your openai api key in the ChatOpenAI() 
+- Input your openai api key in the ChatOpenAI().
 
 ```
 llm = ChatOpenAI(model_name="gpt-3.5-turbo", openai_api_key="")
@@ -45,7 +45,7 @@ HuggingFaceEmbeddings(model_name="sentence-transformers/xxxxxxx")
 - Import localtunnel.ipynb into Google Colab.
 
 
-- Input your openai api key in the ChatOpenAI() .
+- Input your openai api key in the ChatOpenAI().
 ```
 llm = ChatOpenAI(
     model_name="gpt-3.5-turbo",
@@ -70,7 +70,7 @@ embedding = HuggingFaceEmbeddings(
 
 <img src="Images/get curl password.png" alt="get curl password" style="zoom:80%;" />
 
-- Run the above cell again, click the last url link.
+- Run the above cell again, you can see three urls, click the last url.
 
 <img src="Images/password UI.png" alt="password UI" style="zoom:80%;" />
 
