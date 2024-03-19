@@ -3,3 +3,6 @@ pypdf
 sentence-transformers
 openai
 chromadb
+langchain_community
+streamlit_chat
+python-dotenv
