@@ -34,7 +34,7 @@ llm = ChatOpenAI(model_name="gpt-3.5-turbo", openai_api_key="")
 
 - You can change embedding model by searching on HuggingFace.
 ```
-HuggingFaceEmbeddings(model_name="sentence-transformers/xxxxxxx")
+embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/xxxxxxx")
 ```
 
 - Ask question and get answer on Colab.
@@ -57,7 +57,7 @@ llm = ChatOpenAI(
 - You can change embedding model by searching on HuggingFace.
 ```
 embedding = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/all-MiniLM-L6-v2",
+    model_name="sentence-transformers/xxxxxxx",
     model_kwargs={"device": "cpu"}
 )
 ```
