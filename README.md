@@ -31,8 +31,8 @@ HuggingFaceEmbeddings(model_name="sentence-transformers/xxxxxxx")
 
 - Ask question and get answer on Colab.
 
-![simple colab version](C:\Users\86183\Desktop\Lzc\USA\2024\RAG-ChatBot\Images\simple colab version.png)
-	
+
+![](Images/simple colab version.png)	
 #### 4. Run Streamlit On Colab
 - Input your openai api key in the ChatOpenAI() .
 ```
@@ -53,19 +53,19 @@ embedding = HuggingFaceEmbeddings(
 
 - You can get an url, but you don't need to click on it, stop this cell.
 
-![npx url](C:\Users\86183\Desktop\Lzc\USA\2024\RAG-ChatBot\Images\npx url.png)
+![npx url](Images/npx url.png)
 
 - Run the next cell, get the tunnel password.
 
-![get curl password](C:\Users\86183\Desktop\Lzc\USA\2024\RAG-ChatBot\Images\get curl password.png)
+![get curl password](Images/get curl password.png)
 
 - Run the above cell again, click the last url link.
 
-![password UI](C:\Users\86183\Desktop\Lzc\USA\2024\RAG-ChatBot\Images\password UI.png)
+![password UI](Images/password UI.png)
 
 - Enter the tunnel password, which you got in the previous step. Then you can see the Streamlit WebUI.
 
-![streamlit ui](C:\Users\86183\Desktop\Lzc\USA\2024\RAG-ChatBot\Images\streamlit ui.png)
+<img src="Images/streamlit ui.png" alt="streamlit ui"  />
 
 
 #### 5. Run Streamlit On Local Computer
