@@ -18,8 +18,16 @@ pip install -r requirements.txt
 
 ​	Set OPENAI_API_KEY="Your API KEY"
 
-#### 3. Run Simple Version On Colab
+#### 3. Run Simple Version On Colab (only support one pdf file)
+- Import colab.ipynb into Google Colab.
+
+- Drag your pdf file into Colab and change the file name in the code.
+```
+loader = PyPDFLoader("data.pdf")
+```
+
 - Input your openai api key in the ChatOpenAI() 
+
 ```
 llm = ChatOpenAI(model_name="gpt-3.5-turbo", openai_api_key="")
 ```
@@ -34,6 +42,9 @@ HuggingFaceEmbeddings(model_name="sentence-transformers/xxxxxxx")
 <img src="Images/simple colab version.png" style="zoom:80%;" />	
 
 #### 4. Run Streamlit On Colab
+- Import localtunnel.ipynb into Google Colab.
+
+
 - Input your openai api key in the ChatOpenAI() .
 ```
 llm = ChatOpenAI(
