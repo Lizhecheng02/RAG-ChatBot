@@ -99,8 +99,16 @@ You need to wait for some time to let the embedding model convert all files into
 
 <img src="Images/new folder.png" style="zoom:150%;" />
 
+Then you can see the original chat interface like this.
+
+<img src="Images/start ui.png" style="zoom:67%;" />
+
+Feel free to enter your question and click **Send** to chat with the ``RAG system``, you may need to wait for about 15 seconds after sending your new query. 
+
+<img src="Images/chat.png" style="zoom: 67%;" />
+
 #### 6. Compare RAG With Original ChatGPT
 ```
 python compare.py
 ```
-The code is almost the same as ``colab.ipynb``, just add the response from original ``ChatGPT``. When you enter the question, you can see responses from both RAG system and original ChatGPT.
+The code is almost the same as ``colab.ipynb``, just add the response from ``original ChatGPT``. When you enter the question, you can see responses from both ``RAG system`` and ``original ChatGPT``.
