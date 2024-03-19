@@ -95,6 +95,12 @@ Then you should be able to upload files successfully, like the image below.
 
 <img src="Images/upload files.png" style="zoom:80%;" />
 
-You need to wait for some minutes to let the embedding model convert all files into high dimensional vectors and store them into a database. You will see a new folder in your local computer.
+You need to wait for some time to let the embedding model convert all files into high dimensional vectors and store them into a database. You will see a new folder in your local computer.
 
 <img src="Images/new folder.png" style="zoom:150%;" />
+
+#### 6. Compare RAG With Original ChatGPT
+```
+python compare.py
+```
+The code is almost the same as ``colab.ipynb``, just add the response from original ``ChatGPT``. When you enter the question, you can see responses from both RAG system and original ChatGPT.
