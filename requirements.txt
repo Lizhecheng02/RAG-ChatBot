@@ -2,7 +2,7 @@ langchain
 pypdf
 sentence-transformers
 openai
-chromadb
+chromadb==0.3.29
 langchain_community
 streamlit_chat
 python-dotenv
