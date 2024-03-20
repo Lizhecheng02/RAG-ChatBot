@@ -112,3 +112,38 @@ Feel free to enter your question and click **Send** to chat with the ``RAG syste
 python compare.py
 ```
 The code is almost the same as ``colab.ipynb``, just add the response from ``original ChatGPT``. When you enter the question, you can see responses from both ``RAG system`` and ``original ChatGPT``.
+
+#### 7. Deploy Your App
+- Fork this GitHub repo into your own GitHub account
+
+<img src="Images/fork.png" alt="fork" style="zoom:67%;" />
+
+- Set your ``OPENAI_API_KEY`` in the ``.env`` file. (You need to clone the repo to local computer, change the file and commit it, or maybe you can delete this file and upload an another ``.env`` file)
+
+<img src="Images/set key.png" alt="set key"  />
+
+- Go to https://share.streamlit.io/ and login with your GitHub account.
+- Click **New app**.
+
+<img src="Images/create new app.png" alt="create new app" style="zoom:80%;" />
+
+- Enter your GitHub repo url in **Repository** and change the **Main file path** to ``app.py``
+
+<img src="Images/add repo url.png" alt="add repo url" style="zoom:60%;" />
+
+- Click **Deploy!**, wait for installing all packages in the ``requirements.txt``, you can see the progress.
+
+<img src="Images/deploy process.png" alt="deploy process" style="zoom: 50%;" />
+
+- After it's done, you can use it.
+
+<img src="Images/successfully deploy and use.png" alt="chat" style="zoom:50%;" />
+
+- Now, you can share your app link with others. When you go back to https://share.streamlit.io/, you can see your application now.
+
+<img src="Images/see your app.png" alt="see your app" style="zoom: 80%;" />
+
+#### 8. Alert
+
+**Since others will be using your OPENAI_API_KEY when you share your app with them, all costs will be charged to your account. Be cautious when sharing it, and if needed, promptly delete the application you've deployed.**
+
