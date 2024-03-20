@@ -1,14 +1,14 @@
-## This Repo is for creating RAG system using LangChain and Streamlit
+# This Repo is for creating RAG system using LangChain and Streamlit
 
-### Python Environment
+## Python Environment
 
-#### 1. Install Packages
+### 1. Install Packages
 
 ```b
 pip install -r requirements.txt
 ```
 
-#### 2. Set Api Key
+### 2. Set Api Key
 
 - Create a new ``openai api key``, link: https://platform.openai.com/api-keys.
 
@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ​	Set ``OPENAI_API_KEY="Your API KEY"``
 
-#### 3. Run Simple Version On Colab (only support one pdf file)
+### 3. Run Simple Version On Colab (only support one pdf file)
 - Import ``colab.ipynb`` into ``Google Colab``.
 
 - Drag your pdf file into ``Google Colab`` and change the file name in the code.
@@ -41,7 +41,7 @@ embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/xxxxxxx")
 
 <img src="Images/simple colab version.png" style="zoom: 100%;" />	
 
-#### 4. Run Streamlit On Colab
+### 4. Run Streamlit On Colab
 - Import ``localtunnel.ipynb`` into ``Google Colab``.
 
 
@@ -79,7 +79,7 @@ embedding = HuggingFaceEmbeddings(
 <img src="Images/streamlit ui.png" alt="streamlit ui" style="zoom: 100%;" />
 
 
-#### 5. Run Streamlit On Local Computer
+### 5. Run Streamlit On Local Computer
 
 ```
 streamlit run app.py
@@ -107,13 +107,13 @@ Feel free to enter your question and click **Send** to chat with the ``RAG syste
 
 <img src="Images/chat.png" style="zoom: 100%;" />
 
-#### 6. Compare RAG With Original ChatGPT
+### 6. Compare RAG With Original ChatGPT
 ```
 python compare.py
 ```
 The code is almost the same as ``colab.ipynb``, just add the response from ``original ChatGPT``. When you enter the question, you can see responses from both ``RAG system`` and ``original ChatGPT``.
 
-#### 7. Deploy Your App
+### 7. Deploy Your App
 - Fork this GitHub repo into your own GitHub account
 
 <img src="Images/fork.png" alt="fork" style="zoom: 100%;" />
@@ -143,7 +143,7 @@ The code is almost the same as ``colab.ipynb``, just add the response from ``ori
 
 <img src="Images/see your app.png" alt="see your app" style="zoom: 100%;" />
 
-#### 8. Alert
+### 8. Alert
 
-**Since others will be using your OPENAI_API_KEY when you share your app with them, all costs will be charged to your account. Be cautious when sharing it, and if needed, promptly delete the application you've deployed.**
+Since others will be using your ``OPENAI_API_KEY`` when you share your app with them, all costs will be charged to your account. Be cautious when sharing it, and if needed, promptly delete the application you've deployed.
 
