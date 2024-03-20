@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 - Create a new ``openai api key``, link: https://platform.openai.com/api-keys.
 
-<img src="Images/create_api_key.png" alt="create_api_key" style="zoom: 67%;" />
+<img src="Images/create_api_key.png" alt="create_api_key" style="zoom: 50%;" />
 
 - Copy it into .env file
 
@@ -76,7 +76,7 @@ embedding = HuggingFaceEmbeddings(
 
 - Enter the ``tunnel password``, which you got in the previous step. Then you can see the ``Streamlit WebUI``.
 
-<img src="Images/streamlit ui.png" alt="streamlit ui" style="zoom: 67%;" />
+<img src="Images/streamlit ui.png" alt="streamlit ui" style="zoom: 50%;" />
 
 
 #### 5. Run Streamlit On Local Computer
@@ -93,7 +93,7 @@ streamlit run app.py --server.enableXsrfProtection false
 
 Then you should be able to upload files successfully, like the image below.
 
-<img src="Images/upload files.png" style="zoom: 67%;" />
+<img src="Images/upload files.png" style="zoom: 50%;" />
 
 You need to wait for some time to let the embedding model convert all files into high dimensional vectors and store them into a database. You will see a new folder in your local computer.
 
@@ -116,20 +116,20 @@ The code is almost the same as ``colab.ipynb``, just add the response from ``ori
 #### 7. Deploy Your App
 - Fork this GitHub repo into your own GitHub account
 
-<img src="Images/fork.png" alt="fork" style="zoom:67%;" />
+<img src="Images/fork.png" alt="fork" style="zoom: 50%;" />
 
 - Set your ``OPENAI_API_KEY`` in the ``.env`` file. (You need to clone the repo to local computer, change the file and commit it, or maybe you can delete this file and upload an another ``.env`` file)
 
-<img src="Images/set key.png" alt="set key"  />
+<img src="Images/set key.png" alt="set key" style="zoom:50%;" />
 
 - Go to https://share.streamlit.io/ and login with your GitHub account.
 - Click **New app**.
 
-<img src="Images/create new app.png" alt="create new app" style="zoom:80%;" />
+<img src="Images/create new app.png" alt="create new app" style="zoom: 67%;" />
 
 - Enter your ``GitHub Repo Url`` in **Repository** and change the **Main file path** to ``app.py``
 
-<img src="Images/add repo url.png" alt="add repo url" style="zoom:60%;" />
+<img src="Images/add repo url.png" alt="add repo url" style="zoom: 50%;" />
 
 - Click **Deploy!**, wait for installing all packages in the ``requirements.txt``, you can see the progress.
 
@@ -141,7 +141,7 @@ The code is almost the same as ``colab.ipynb``, just add the response from ``ori
 
 - Now, you can share your app link with others. When you go back to https://share.streamlit.io/, you can see your application now.
 
-<img src="Images/see your app.png" alt="see your app" style="zoom: 67%;" />
+<img src="Images/see your app.png" alt="see your app" style="zoom: 50%;" />
 
 #### 8. Alert
 
