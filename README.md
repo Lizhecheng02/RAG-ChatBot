@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 - Create a new ``openai api key``, link: https://platform.openai.com/api-keys.
 
-<img src="Images/create_api_key.png" alt="create_api_key" style="zoom:80%;" />
+<img src="Images/create_api_key.png" alt="create_api_key" style="zoom: 67%;" />
 
 - Copy it into .env file
 
@@ -39,7 +39,7 @@ embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/xxxxxxx")
 
 - Ask question and get answer on ``Google Colab``.
 
-<img src="Images/simple colab version.png" style="zoom:80%;" />	
+<img src="Images/simple colab version.png" style="zoom: 67%;" />	
 
 #### 4. Run Streamlit On Colab
 - Import ``localtunnel.ipynb`` into ``Google Colab``.
@@ -64,7 +64,7 @@ embedding = HuggingFaceEmbeddings(
 
 - You can get three urls, but you **don't need to** click any of them, stop this cell.
 
-<img src="Images/npx url.png" alt="npx url" style="zoom:80%;" />
+<img src="Images/npx url.png" alt="npx url" style="zoom: 67%;" />
 
 - Run the next cell, get the ``tunnel password``.
 
@@ -72,11 +72,11 @@ embedding = HuggingFaceEmbeddings(
 
 - Run the above cell again, you can see three urls. Click the **last url** and you will see the web page below.
 
-<img src="Images/password UI.png" alt="password UI" style="zoom:80%;" />
+<img src="Images/password UI.png" alt="password UI" style="zoom: 67%;" />
 
 - Enter the ``tunnel password``, which you got in the previous step. Then you can see the ``Streamlit WebUI``.
 
-<img src="Images/streamlit ui.png" alt="streamlit ui" style="zoom:80%;" />
+<img src="Images/streamlit ui.png" alt="streamlit ui" style="zoom: 67%;" />
 
 
 #### 5. Run Streamlit On Local Computer
@@ -93,19 +93,19 @@ streamlit run app.py --server.enableXsrfProtection false
 
 Then you should be able to upload files successfully, like the image below.
 
-<img src="Images/upload files.png" style="zoom:80%;" />
+<img src="Images/upload files.png" style="zoom: 67%;" />
 
 You need to wait for some time to let the embedding model convert all files into high dimensional vectors and store them into a database. You will see a new folder in your local computer.
 
-<img src="Images/new folder.png" style="zoom:150%;" />
+<img src="Images/new folder.png" style="zoom: 80%;" />
 
 Then you can see the original chat interface like this.
 
-<img src="Images/start ui.png" style="zoom:67%;" />
+<img src="Images/start ui.png" style="zoom: 50%;" />
 
 Feel free to enter your question and click **Send** to chat with the ``RAG system``, you may need to wait for about 15 seconds after sending your new query. 
 
-<img src="Images/chat.png" style="zoom: 67%;" />
+<img src="Images/chat.png" style="zoom: 50%;" />
 
 #### 6. Compare RAG With Original ChatGPT
 ```
@@ -127,7 +127,7 @@ The code is almost the same as ``colab.ipynb``, just add the response from ``ori
 
 <img src="Images/create new app.png" alt="create new app" style="zoom:80%;" />
 
-- Enter your GitHub repo url in **Repository** and change the **Main file path** to ``app.py``
+- Enter your ``GitHub Repo Url`` in **Repository** and change the **Main file path** to ``app.py``
 
 <img src="Images/add repo url.png" alt="add repo url" style="zoom:60%;" />
 
@@ -141,7 +141,7 @@ The code is almost the same as ``colab.ipynb``, just add the response from ``ori
 
 - Now, you can share your app link with others. When you go back to https://share.streamlit.io/, you can see your application now.
 
-<img src="Images/see your app.png" alt="see your app" style="zoom: 80%;" />
+<img src="Images/see your app.png" alt="see your app" style="zoom: 67%;" />
 
 #### 8. Alert
 
