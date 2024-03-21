@@ -7,3 +7,4 @@ langchain_community
 streamlit_chat
 python-dotenv
 langchain_openai
+langchain_groq
