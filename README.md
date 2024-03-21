@@ -143,7 +143,13 @@ The code is almost the same as ``colab.ipynb``, just add the response from ``ori
 
 <img src="Images/see your app.png" alt="see your app" style="zoom: 100%;" />
 
-### 8. Alert
+### 8. Deploy Your App With Groq For Faster Inference
 
-Since others will be using your ``OPENAI_API_KEY`` when you share your app with them, all costs will be charged to your account. Be cautious when sharing it, and if needed, promptly delete the application you've deployed.
+- Set your ``GROQ_API_KEY`` in the ``.env`` file.
+
+- Follow all the steps in the **Part 7**, but change the **Main file path** to ``app-groq.py``
+
+### 9. Alert
+
+Since others will be using your ``OPENAI_API_KEY`` and ``GROQ_API_KEY`` when you share your app with them, all costs will be charged to your account. Be cautious when sharing it, and if needed, promptly delete the application you've deployed.
 
