@@ -101,7 +101,7 @@ def create_conversational_chain(vector_store):
 
 def main():
     initialize_session_state()
-    st.title("RAG ChatBot Using LangChain and ChatGPT")
+    st.title("RAG ChatBot Using LangChain and Groq")
     st.sidebar.title("Document Processing")
     uploaded_files = st.sidebar.file_uploader(
         "Upload Files",
