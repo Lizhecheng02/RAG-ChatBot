@@ -143,7 +143,7 @@ The code is almost the same as ``colab.ipynb``, just add the response from ``ori
 
 <img src="Images/see your app.png" alt="see your app" style="zoom: 100%;" />
 
-### 8. Using Groq For Faster Inference
+### 8. Use Groq For Faster Inference
 
 - Get your ``GROQ_API_KEY`` at https://console.groq.com/keys.
 
@@ -151,7 +151,15 @@ The code is almost the same as ``colab.ipynb``, just add the response from ``ori
 
 - Follow all the steps in the **Part 7**, but change the **Main file path** to ``app-groq.py``
 
-### 9. Alert
+### 9. Use Llama Model
 
-Since others will be using your ``OPENAI_API_KEY`` and ``GROQ_API_KEY`` when you share your app with them, all costs will be charged to your account. Be cautious when sharing it, and if needed, promptly delete the application you've deployed.
+- Get your ``LLAMA_API_KEY`` at https://console.llama-api.com/account/api-token.
+
+- Set your ``LLAMA_API_KEY`` in the ``.env`` file.
+
+- Follow all the steps in the **Part 7**, but change the **Main file path** to ``app-llama.py``
+
+### 10. Warning
+
+Since others will be using your ``OPENAI_API_KEY``, ``GROQ_API_KEY`` and ``LLAMA_API_KEY`` when you share your app with them, all costs will be charged to your account. Be cautious when sharing it, and if needed, promptly delete the application you've deployed.
 

@@ -8,3 +8,5 @@ streamlit_chat
 python-dotenv
 langchain_openai
 langchain_groq
+llamaapi
+langchain_experimental
